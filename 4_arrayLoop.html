@@ -9,11 +9,15 @@
 <div id="output"></div>
 
 <script>
-const whiteRose = ["York", "Leeds", "Sheffield"];
+  const whiteRoses = ["York", "Leeds", "Sheffield"];
+  
+ 
+  const outputDiv = document.getElementById("output");
 
-for (let i = 0; i < whiteRoses.length; i++) {
-    document.getElementById("output").innerHTML += whiteRose[i] + "<br>";
-}
+ 
+  for (let i = 0; i < whiteRoses.length; i++) {
+    outputDiv.innerHTML += whiteRoses[i] + "<br>";
+  }
 </script>
 
 </body>
